@@ -12,6 +12,7 @@ The goal of this task is to visualize the **Probability Density Function (PDF)**
    - **Plot the CDF** by sorting the data and computing the cumulative sum of probabilities.
 
 The four features in the Iris dataset are:
+
 - Sepal Length
 - Sepal Width
 - Petal Length
@@ -20,10 +21,12 @@ The four features in the Iris dataset are:
 ## 📊 Output
 
 The task produces:
+
 - 📌 4 PDF plots — one for each feature
 - 📌 4 CDF plots — one for each feature
 
 Each plot should include:
+
 - Appropriate axis labels
 - Clear titles
 - Gridlines (optional but recommended)
@@ -35,14 +38,3 @@ Each plot should include:
 - NumPy
 - Matplotlib
 - Scikit-learn
-
-## 📁 File
-
-- `task1_iris_pdf_cdf.py`: Contains the implementation for plotting PDFs and CDFs for all Iris dataset features.
-
----
-
-## 📝 Notes
-
-- Make sure to scale histograms properly using `density=True` when plotting PDFs.
-- Sort the data before computing CDF values to ensure accurate plots.
