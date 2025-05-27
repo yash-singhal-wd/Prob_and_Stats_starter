@@ -2,14 +2,12 @@
 
 ## 🧠 Objective
 
-The goal of this task is to visualize the **Probability Density Function (PDF)** and the **Cumulative Distribution Function (CDF)** for each feature in the **Iris dataset**. These visualizations help in understanding the distribution and behavior of data features.
+The goal of this task is to visualize the **Probability Density Function (PDF)** and the **Cumulative Distribution Function (CDF)** for each target in the **Iris dataset**. These visualizations help in understanding the distribution and behavior of the targets.
 
 ## 📋 Description
 
 1. Load the Iris dataset using `scikit-learn`.
-2. For each feature in the dataset:
-   - **Plot the PDF** using a histogram with `density=True` to approximate the probability density.
-   - **Plot the CDF** by sorting the data and computing the cumulative sum of probabilities.
+2. For each target value, calculate the PDF and CDF. 
 
 The four features in the Iris dataset are:
 
@@ -22,8 +20,8 @@ The four features in the Iris dataset are:
 
 The task produces:
 
-- 📌 4 PDF plots — one for each feature
-- 📌 4 CDF plots — one for each feature
+- 📌 3 PDF plots — one for each target
+- 📌 3 CDF plots — one for each target
 
 Each plot should include:
 
@@ -38,3 +36,4 @@ Each plot should include:
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Seaborn
